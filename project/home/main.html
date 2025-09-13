@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        a{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="contact.html">Contacts</a>
+            <a href="cinfo/index.html">Info</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="imgs/home-1.jpg">
+                <div class="content">
+                    <!-- <div class="author">LUNDEV</div> -->
+                    <div class="title">MAGIC</div>
+                    <div class="topic">PAINTS</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                       WE DO ALL PAINTING AND DESIGN WORKS!.
+                    </div>
+                    <div class="buttons">
+                        <button><a href="login.php">BOOK NOW</a></button>
+                        <button onlick="checkfn()"><a href="login.php">LOGIN</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-2.jpg">
+                <div class="content">
+                    <!-- <div class="author">LUNDEV</div> -->
+                    <div class="title">MAGIC</div>
+                    <div class="topic">PAINTS</div>
+                    <div class="des">
+                        WE DO ALL PAINTING AND DESIGN WORKS!.
+                    </div>
+                    <div class="buttons">
+                        <button><a href="login.php">BOOK NOW</a></button>
+                        <button><a href="login.php">LOGIN</a></button>
+                      
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-3.jpg">
+                <div class="content">
+                  
+                    <div class="title">MAGIC</div>
+                    <div class="topic">PAINTS</div>
+                    <div class="des">
+                        WE DO ALL PAINTING AND DESIGN WORKS!.
+                    </div>
+                    <div class="buttons">
+                        <button><a href="login.php">BOOK NOW</a></button>
+                        <button><a href="login.php">LOGIN</a></button>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-4.jpg">
+                <div class="content">
+                    
+                    <div class="title">MAGIC</div>
+                    <div class="topic">PAINTS</div>
+                    <div class="des">
+                        WE DO ALL PAINTING AND DESIGN WORKS!.
+                    </div>
+                    <div class="buttons">
+
+                        <button><a href="login.php">BOOK NOW</a></button>
+                        <button><a href="login.php">LOGIN</a></button>
+                       
+
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <!-- list thumnail -->
+     
+        <div class="thumbnail">
+            <div class="item">
+                <img src="imgs/home-1.jpg">
+                <div class="content">
+                    <div class="title">
+                        <!-- Name Slider -->
+                    </div>
+                    <div class="description">
+                        <!-- Description -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-2.jpg">
+                <div class="content">
+                    <div class="title">
+                        <!-- Name Slider -->
+                    </div>
+                    <div class="description">
+                        <!-- Description -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-3.jpg">
+                <div class="content">
+                    <div class="title">
+                        <!-- Name Slider -->
+                    </div>
+                    <div class="description">
+                        <!-- Description -->
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/home-4.jpg">
+                <div class="content">
+                    <div class="title">
+                        <!-- Name Slider -->
+                    </div>
+                    <div class="description">
+                        <!-- Description -->
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        function checkfn(){
+            alert("please login to book");  
+        }
+    </script>
+</body>
+</html>

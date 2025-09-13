@@ -1,0 +1,18 @@
+.heading-login {
+  font-size: 52px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body {
+  background: rgb(232, 211, 211);
+}
+.login-form > input {
+  background-color: yellow;
+}
+.login-div {
+  border: 2px;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: 2px;
+}

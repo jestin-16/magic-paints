@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>info</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+         .portfolio-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            padding: 10px;
+            max-width: 1200px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .portfolio-item .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .portfolio-item:hover .overlay {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- HERO -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-uppercase text-white fw-semibold display-1">Welcome To Magic Paints</h1>
+                    <h5 class="text-white mt-3 mb-4">WE DO ALL PAINTING AND DESINGN WORKS</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-semibold mb-4">About Us</h1>
+                    <p class="mb-4">
+                        Magic Painting, based in Kerala, is renowned for its high-quality painting services for residential and commercial clients.
+                        Specializing in both interior and exterior painting, they employ skilled professionals adept in traditional and modern techniques,
+                        including eco-friendly solutions. Their personalized approach ensures each project meets the client's unique needs, from initial
+                        consultation to final execution. Using premium materials and adhering to safety and environmental standards, Magic Painting
+                        guarantees durability and aesthetic appeal. Their blend of craftsmanship and innovation, along with a strong focus on customer
+                        satisfaction, makes them a top choice for painting services in Kerala.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+   
+    <section id="services" class="section-padding border-top">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service theme-shadow p-lg-5 p-4">
+                        <div class="iconbox">
+                            <i class="ri-paint-brush-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">PAINTING</h5>
+                        <p>We provide high-quality painting services for both residential and commercial clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service theme-shadow p-lg-5 p-4">
+                        <div class="iconbox">
+                            <i class="ri-layout-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Designing</h5>
+                        <p>Our team offers innovative design solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service theme-shadow p-lg-5 p-4">
+                        <div class="iconbox">
+                            <i class="ri-brush-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">TEXTURE WORKS</h5>
+                        <p>Expertly applied textures to add depth and character to your walls.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="section-padding border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="fw-semibold mb-4">Our Previous Works</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <img src="imgs/p1.jpg" alt="Project 1">
+            <div class="overlay"></div>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/paint-2.jpg" alt="Project 2">
+            <div class="overlay"></div>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/paint-3.jpg" alt="Project 3">
+            <div class="overlay"></div>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/paint-4.jpg" alt="Project 4">
+            <div class="overlay"></div>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/a3.jpg" alt="Project 5">
+            <div class="overlay"></div>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/a5.jpg" alt="Project 6">
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

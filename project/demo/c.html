@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Price Listing</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .price-listing {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+        .card {
+            border: none;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        .card-header {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+            background-color: #000;
+            padding: 25px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .card-body {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .price {
+            font-size: 2.3em;
+            font-weight: 700;
+            color: #000;
+            margin: 15px 0;
+        }
+        .list-unstyled li {
+            font-size: 1.1em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .btn-custom {
+            width: 100%;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #000;
+            background-color: transparent;
+            border: 2px solid #000;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            color: #fff;
+            background-color: #000;
+            border-color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container price-listing">
+    <div class="row">
+        <!-- Low Plan -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">Low</div>
+                <div class="card-body">
+                    <p class="price">$9.99/month</p>
+                    <ul class="list-unstyled">
+                        <li>Basic Features</li>
+                        <li>10 Projects</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-custom">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Medium Plan -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">Medium</div>
+                <div class="card-body">
+                    <p class="price">$19.99/month</p>
+                    <ul class="list-unstyled">
+                        <li>Standard Features</li>
+                        <li>50 Projects</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-custom">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- High Plan -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">High</div>
+                <div class="card-body">
+                    <p class="price">$29.99/month</p>
+                    <ul class="list-unstyled">
+                        <li>All Features</li>
+                        <li>Unlimited Projects</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-custom">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
